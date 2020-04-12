@@ -5,10 +5,8 @@
     padding: 0;
 }
 body{
-    background-image: url('c.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position:center ;
+  background-color: wheat;
+   
 }
 .main {
     display: flex;
@@ -25,9 +23,7 @@ body{
 
 /* Clock styles */
 .circle {
-    fill:rgba(255, 221, 159, 0.918);
-    stroke:wheat;
-    stroke-width:2;
+    fill: none;
     stroke-miterlimit: 10;
 }
 .mid-circle {
@@ -35,28 +31,28 @@ body{
 }
 .hour-marks {
     fill: none;
-    stroke:white;
+    stroke:black;
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
 
 .hour-arm {
     fill: none;
-    stroke:white;
+    stroke:black;
     stroke-width: 17;
     stroke-miterlimit: 10;
 }
 
 .minute-arm {
     fill: none;
-    stroke:white;
+    stroke:black;
     stroke-width: 11;
     stroke-miterlimit: 10;
 }
 
 .second-arm {
     fill: none;
-    stroke: gray;
+    stroke:black;
     stroke-width: 4;
     stroke-miterlimit: 10;
 }
